@@ -1,0 +1,3 @@
+#!/bin/bash
+# This `DEBIAN/postrm` script is run post-uninstall
+rm /usr/share/applications/image-collector.desktop

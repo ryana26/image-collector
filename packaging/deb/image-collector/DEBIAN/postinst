@@ -1,0 +1,16 @@
+#!/bin/bash
+# This `DEBIAN/postinst` script is run post-installation
+
+# Add the desktop entry for the executable.
+{
+echo [Desktop Entry]
+echo Path=/usr/local/image-collector/
+echo Exec=/usr/local/image-collector/image-collector
+echo Icon=/usr/local/image-collector/images/desktop_icon.png
+echo Name=Image Collector
+echo Description=Application for taking images of fruit, saving the images locally and then uploading them to AWS.
+echo GenericName=Image Collector
+echo Terminal=false
+echo Type=Application
+echo Categories=Application;
+}>/usr/share/applications/image-collector.desktop

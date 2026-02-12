@@ -1,0 +1,8 @@
+Package: image-collector
+Description: Image Collector
+Version: 1.0
+Section: utils
+Priority: optional
+Installed-Size: 276884
+Architecture: amd64
+Maintainer: Ryan Adams

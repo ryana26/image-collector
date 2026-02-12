@@ -1,0 +1,222 @@
+# config file
+
+capture_color_image: 1
+capture_infrared_image: 1
+capture_depth_image: 1
+input_weight: 0
+
+fruit: 'apples'
+#fruit: 'avocadoes'
+# fruit: 'grapes'
+# fruit: 'herbs'
+# fruit: 'kiwis'
+# fruit: 'mangoes'
+# fruit: 'oranges'
+#fruit: 'peppers'
+#fruit: 'punnets'
+# fruit: 'tomatoes'
+
+all_types:
+  apples:
+    Green Apples:
+      all_green_apples: All Green Apples
+    Red Apples:
+      all_red_apples: All Red Apples
+  avocadoes:
+    Avocadoes:
+      all_avocadoes: All Avocadoes
+  chilli_peppers:
+    Green Chilli Peppers:
+      all_green_chillies: All Green Chillies
+    Red Chilli Peppers:
+      all_red_chillies: All Red Chillies
+  defect_chillies:
+    Defect Chillies:
+      all_defect_chillies: All Defect Chillies
+  grapes:
+    Black Grapes:
+      adora: Adora Seedless (Sugra 34)
+      arra5: Arra 5
+      arra14: Arra 14
+      arra24: Arra 24
+      arra18: Arra 18
+      arra32: Arra 32
+      autumn_royal: Autumn Royal
+      black_seedless: Black Seedless
+      desert_seedless: Desert Seedless
+      ifg_8: IFG Eight
+      ifg_julep: IFG Julep
+      ifg_candy_crush: IFG Candy Crunch
+      ifg_candy_dreams: IFG Candy Dreams
+      ifg_candy_drops: IFG Candy Drops
+      ifg_candy_moon: IFG Candy Moon
+      ifg_17: IFG Seventeen
+      ifg_sweet_favors: IFG Sweet Favors
+      sweet_magic: IFG Sweet Magic
+      ifg_sweet_sapphire: IFG Sweet Sapphire
+      sweet_surrender: IFG Sweet Surrender
+      itum12: Itum 12
+      maylen: Maylen (Iniagrape-One)
+      melody: Melody (Blagratwo)
+      sugrathirteen: Midnight Beauty (Sugra 13)
+      midseason_black: Midseason Black
+      sable: Sable Seedless
+      sharad: Sharad
+      sugra48: Sugra 48
+      summer_royal: Summer Royal
+      sweet_enchantment: Sweet Enchantment
+      sweet_inspiration: Sweet Inspiration
+      sweet_joy: Sweet Joy
+      sweet_surprise: Sweet Surprise
+      vitoria: Vitoria
+    Red Grapes:
+      sheegene20: Allison (Sheegene 20)
+      arra13: Arra 13
+      arra19: Arra 19
+      arra28: Arra 28
+      arra29: Arra 29
+      arra31: Arra 31 or 12-7+5
+      arra33: Arra 33-31+7
+      autumn_pearl: Autumn Pearl
+      carlita: Carlita
+      crimson_exsa: Crimson Seedless (Crimson Exsa)
+      evans_delight: Evans Delight
+      desert_dawn: Desert Dawn
+      flame: Flame
+      ifg_candy_hearts: IFG Candy Hearts
+      ifg_candy_snaps: IFG Candy Snaps
+      ifg_jacks_salute: IFG Jack's Salute
+      ifg_sweet_mayabelle: IFG Sweet Mayabelle
+      iris_seedless: Iris Seedless
+      itum7: Itum 7
+      itum8: Itum 8
+      itum9: Itum 9
+      itum15: Itum 15
+      jacks_salute: Jack's Salute
+      joybells: Joybells
+      krissy: Krissy Gold (Krissy)
+      ophelia: Ophelia
+      magenta: Magenta
+      queen_ruby: Queen Ruby
+      ralli: Ralli
+      red_superior: Red Superior Seedless (Sugra 14)
+      scarlet_royal: Scarlet Royal
+      scarlotta: Scarlotta Seedless (Sugra 19)
+      sonera: Sonera Seedless
+      starlight: Starlight
+      sugra53: Sugra 53
+      sweet_celebration: Sweet Celebration (IFG 3)
+      sweet_nectar: Sweet Nectar (IFG 18)
+      tawny: Tawny
+      timco: Timco
+    Speciality grapes:
+      mango_k3: Mango K3
+      ifg_cotton_candy: IFG Cotton Candy
+      tutti_frutti: Tutti Frutti
+    White Grapes:
+      arra11: Arra 11
+      arra15: Arra 15
+      arra30: Arra 30
+      arra33: Arra 33
+      arra34: Arra 34
+      sugrathirtyfive: Autumn Crisp (Sugra 35)
+      autumn_king: Autumn King
+      blanc_seedless: Blanc Seedless
+      early_sweet: Early Sweet
+      great_green: Great Green
+      cotton_candy: IFG Cotton Candy
+      sweet_globe: IFG Sweet Globe
+      itum5: Itum 5
+      itum6: Itum 6
+      itum16: Itum 16
+      ivory: Ivory
+      kelly: Kelly
+      luisco: Luisco
+      melissa: Melissa
+      prime: Prime
+      pristine: Pristine
+      suger_crisp: Sugar Crisp
+      sugraone: Superior (Sugra 1)
+      timpson: Timpson (Sheegene 2)
+      thompson: Thompson
+  herbs:
+    Herbs:
+      chervil: Chervil
+      coriander: Coriander
+      dill: Dill
+      mint: Mint
+      parsley: Parsley
+      thyme: Thyme
+  kiwis:
+    Kiwis:
+      all_kiwis: All Kiwis
+  mangoes:
+    Mangoes:
+      all_mangoes: All Mangoes
+  oranges:
+    Oranges:
+      all_oranges: All Oranges
+  peppers:
+    Bell Peppers:
+      sweet: Sweet
+      mixed: Mixed
+    Chilli Peppers:
+      birds_eye: Birds Eye
+      finger: Finger
+  punnets:
+    Cardboard Punnets:
+      grape: Grape
+      tomato: Tomato
+    Plastic Punnets:
+      grape: Grape
+      tomato: Tomato
+  plastic_punnet_varieties:
+    grape: Grape
+    tomato: Tomato
+  tomatoes:
+    Single Tomatoes:
+      baby_boomer: Baby Boomer
+      black_cherry: Black Cherry
+      black_pearl: Black Pearl
+      maglia_rosa: Maglia Rosa
+      power_pops: Power Pops
+      sweetheart_patio: Sweetheart of the Patio
+      tiny_tim: Tiny Tim
+    Vine Tomatoes:
+      delisher: Delisher
+      dubbo: Dubbo
+      piccolo: Piccolo
+      roterno: Roterno
+      sunstream: Sunstream
+
+defect_types:
+  defect: Defect
+  no_defect: No Defect
+  berry_colouration: Berry Colouration/Pale Colour
+  blemish : Blemish
+  botrytis: Botrytis
+  sugar_spots: Brown Marking (Sugar Spots)
+  bruising: Bruising
+  chill_damage: Chill Damage
+  cobweb: Cobweb
+  contact_damage: Contact Damage
+  crush_damage: Crushing
+  dead_berries: Dead Berries
+  extraneous_matter: Extraneous Matter
+  foreign_bodies: Foreign Bodies
+  water_berries: Glassy/Waterberry
+  internal_browning: Internal Browning
+  maggots: Maggots
+  mould: Mould (Nesting, Storage etc.)
+  mouldy_calyxes: Mouldy Calyxes
+  pale_colour: Pale Colour
+  rot: Rot (Isolated etc.)
+  scarring: Scarring/Skin Marking
+  shrivel: Shrivel
+  slip_skin: Slip Skin
+  soiling: Soiling
+  splits: Splits
+  stem_condition: Stem Condition
+  sulphur_damage: Sulphur Damage
+  undersized: Undersized
+  waste: Waste
